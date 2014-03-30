@@ -54,7 +54,83 @@
 
 <!-- for products	 -->
 
-See products
+<div id="myCarousel" class="carousel slide" data-interval="false">
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+    <div class="active item">
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+				            <div class="product">
+				            <img class="productpic" src="../img/shampoo.jpg" alt=""><div class=""><p class="turnwhite">Description</p><div class="turnwhite">Some desription stuff pulled in from json</div><p class="turnwhite">Description</p><div class="turnwhite">Some desription stuff pulled in from json</div><p class="turnwhite">Description</p><div class="turnwhite">Some desription stuff pulled in from json</div></div>
+				            </div>
+				            
+				            <div class="product goal">
+				            <div class=""><h5>Goal<h5><p class="theamount">You need $37.50 more to purchase this bulk item.</p></div>
+				            </div>
+				            
+				            <div class="product goal startsinvisible done">
+				            <div class=""><h5>Goal<h5><p>Your community has collected enough to purchase this item.</p></div>
+				            </div>
+				            
+				            <div class="donebutton startsinvisible done mdfy">Go to Checkout!</div>
+				            <div class="waitbutton mdfy">Waiting for further contributiions...</div>
+				            <div class="iminbutton startsinvisible mdfy">Let me get in on that!</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+				            <div class="product">
+				            <img class="productpic" src="../img/shampoo.jpg" alt=""><div class=""><p class="turnwhite">Description</p><div class="turnwhite">Some desription stuff pulled in from json</div><p class="turnwhite">Description</p><div class="turnwhite">Some desription stuff pulled in from json</div><p class="turnwhite">Description</p><div class="turnwhite">Some desription stuff pulled in from json</div></div>
+				            </div>
+				            
+				            <div class="product goal">
+				            <div class=""><h5>Goal<h5><p class="theamount">You need $37.50 more to purchase this bulk item.</p></div>
+				            </div>
+				            
+				            <div class="product goal startsinvisible done">
+				            <div class=""><h5>Goal<h5><p>Your community has collected enough to purchase this item.</p></div>
+				            </div>
+				            
+				            <div class="donebutton startsinvisible done mdfy">Go to Checkout!</div>
+				            <div class="waitbutton mdfy">Waiting for further contributiions...</div>
+				            <div class="iminbutton startsinvisible mdfy">Let me get in on that!</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+				            <div class="product">
+				            <img class="productpic" src="../img/shampoo.jpg" alt=""><div class=""><p class="turnwhite">Description</p><div class="turnwhite">Some desription stuff pulled in from json</div><p class="turnwhite">Description</p><div class="turnwhite">Some desription stuff pulled in from json</div><p class="turnwhite">Description</p><div class="turnwhite">Some desription stuff pulled in from json</div></div>
+				            </div>
+				            
+				            <div class="product goal">
+				            <div class=""><h5>Goal<h5><p class="theamount">You need $37.50 more to purchase this bulk item.</p></div>
+				            </div>
+				            
+				            <div class="product goal startsinvisible done">
+				            <div class=""><h5>Goal<h5><p>Your community has collected enough to purchase this item.</p></div>
+				            </div>
+				            
+				            <div class="donebutton startsinvisible done mdfy">Go to Checkout!</div>
+				            <div class="waitbutton mdfy">Waiting for further contributiions...</div>
+				            <div class="iminbutton startsinvisible mdfy">Let me get in on that!</div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- Carousel nav -->
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">‹</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">›</a>
+</div>
 
 
 		
@@ -78,6 +154,42 @@ See products
     <script src="../js/jquery-1.10.2.js"></script>
     <script src="../js/bootstrap.js"></script>
     <script>
+  $.fn.carousel.defaults = {
+    interval: false
+  , pause: 'hover'
+  }
+  
+    
+    function onapiresponse()
+	{
+		$(".waitbutton").hide();
+		$( ".goal" ).fadeOut( "slow", function() {
+		// Animation complete.
+			$(".done").fadeIn();
+		});
+		newtext = "yrp yrp yrp $" + 23;
+		$(".theamount").text(newtext);
+		//some code to be executed
+	}
+	mytimer = 293472939;
+//	$(function(){
+//    	mytimer = setInterval(function(){
+//        	$.post("url", { data: 'value' }, function(result){
+//            	var obj = JSON.parse(result);
+//            	if (obj.somevalue) {
+//            		onapiresponse();
+//					clearInterval(mytimer)
+//            	}
+//        	});
+//    	}, 1000);
+//	});
+	
+	$( ".product" ).click(function() {
+		onapiresponse();		
+	});	
+	$( ".donebutton" ).click(function() {
+		onapiresponse();		
+	});
     
    
     </script>

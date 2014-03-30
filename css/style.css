@@ -227,12 +227,49 @@ margin-bottom:10px;
 border-bottom: 1px solid #2185a3;
 box-shadow: 5px 5px 3px #2185a3;
 }
+.product{
+background-color: #fffbf6;
+border: .1em solid #cdecf5;
+border-radius: 15px;
+padding:5px 10px 10px 10px;
+margin-bottom:10px;
+border-bottom: 1px solid #2185a3;
+box-shadow: 5px 5px 3px #2185a3;
+}
 .avatar{
 margin-top:10px;
 margin-right:10px;
 border-radius: 6px;
 }
 .donebutton{
+height: 90px;
+background-color: #abf066;
+
+/*border: .1em solid #2e5408;*/
+border-radius: 15px;
+/*color:white;*/
+font-size: 2em;
+text-align: center;
+line-height: 100px;
+border-bottom: 1px solid #38660a;
+box-shadow: 5px 5px 3px #38660a;
+margin-bottom:.5em;
+}
+.waitbutton{
+height: 90px;
+background-color: #abf066;
+
+/*border: .1em solid #2e5408;*/
+border-radius: 15px;
+/*color:white;*/
+font-size: 2em;
+text-align: center;
+line-height: 100px;
+border-bottom: 1px solid #38660a;
+box-shadow: 5px 5px 3px #38660a;
+margin-bottom:.5em;
+}
+.iminbutton{
 height: 90px;
 background-color: #abf066;
 
@@ -282,4 +319,16 @@ margin-bottom:.5em;
 
 .balance{
   margin-bottom:.5em
+}
+
+.productpic{
+	width:100%;
+}
+.startsinvisible{
+	display:none;
+}
+
+.mdfy{
+      font-size:1.1em !important;
+      color: white;
 }
