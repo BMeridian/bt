@@ -212,11 +212,13 @@ footer p {
 float:left;
 }
 .opt{
-height:100px;
-background-color: white;
+height:90px;
+background-color: #fffbf6;
 border-radius: 15px;
 padding:5px 10px 10px 10px;
 margin-bottom:10px;
+border-bottom: 1px solid #2185a3;
+box-shadow: 5px 5px 3px #2185a3;
 }
 .avatar{
 margin-top:10px;
@@ -231,14 +233,16 @@ color:white;
 font-size:40px;
 text-align: center;
 line-height: 100px;
+border-bottom: 1px solid #38660a;
+box-shadow: 5px 5px 3px #38660a;
 }
 .uninv{
       width:100%-20px;
       border-radius: 15px;
       background-color: rgb(91, 192, 222);
       color: rgb(255, 255, 255);
-      font-size:20px;
-      padding: 20px 20px 20px 20px;
+      font-size:1.1em;
+      padding: 20px ;
       margin-top: 10px;
       display:none;
 }
@@ -248,7 +252,7 @@ line-height: 100px;
       border-radius: 15px;
       background-color: rgb(91, 192, 222);
       color: rgb(255, 255, 255);
-      font-size:20px;
-      padding: 20px 20px 20px 20px;
+      font-size:1.1em;
+      padding: 20px ;
       margin-top: 10px;
     }
