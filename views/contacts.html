@@ -124,11 +124,11 @@
 		$( this ).css("background-color","gray");
 		$( this ).text("Processing...");
 		window.setTimeout(function() {
-    		window.location.href = '../index.html';
+    		window.location.href = './shampoo.html';
 		}, 5000);
-		//$.post( "ajax/test.html", function( data ) {
-		//	$( ".result" ).html( data );
-		//});
+		$.post( "http://bethrifty.herokuapp.com/send_sms", function( data ) {
+			$( ".result" ).html( data );
+		});
 	});
     </script>
 
