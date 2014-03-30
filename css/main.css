@@ -208,3 +208,47 @@ footer p {
   float:left;
 }
 
+.floatleft{
+float:left;
+}
+.opt{
+height:100px;
+background-color: white;
+border-radius: 15px;
+padding:5px 10px 10px 10px;
+margin-bottom:10px;
+}
+.avatar{
+margin-top:10px;
+margin-right:10px;
+border-radius: 6px;
+}
+.donebutton{
+height:100px;
+background-color: #69bf13;
+border-radius: 15px;
+color:white;
+font-size:40px;
+text-align: center;
+line-height: 100px;
+}
+.uninv{
+      width:100%-20px;
+      border-radius: 15px;
+      background-color: rgb(91, 192, 222);
+      color: rgb(255, 255, 255);
+      font-size:20px;
+      padding: 20px 20px 20px 20px;
+      margin-top: 10px;
+      display:none;
+}
+
+    .inv {
+      width:100%-20px;
+      border-radius: 15px;
+      background-color: rgb(91, 192, 222);
+      color: rgb(255, 255, 255);
+      font-size:20px;
+      padding: 20px 20px 20px 20px;
+      margin-top: 10px;
+    }
