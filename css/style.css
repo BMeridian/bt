@@ -189,9 +189,6 @@ footer p {
     }
 }
 
-
-
-
 .product{
 background-color: #fffbf6;
 border: .1em solid #cdecf5;
@@ -220,24 +217,24 @@ box-shadow: 5px 5px 3px #38660a;
 margin-bottom:.5em;
 }
 .waitbutton{
-height: 90px;
+height: 80px;
 background-color: #abf066;
-border-radius: 15px;
-font-size: 2em;
+border-radius: 10px;
+font-size: 1.7em;
 text-align: center;
-line-height: 100px;
+line-height:  80px;
 border-bottom: 1px solid #38660a;
 box-shadow: 5px 5px 3px #38660a;
 margin-bottom:.5em;
 }
 
 .iminbutton{
-height: 90px;
+height:  80px;
 background-color: #abf066;
-border-radius: 15px;
-font-size: 2em;
+border-radius: 10px;
+font-size: 1.7em;
 text-align: center;
-line-height: 100px;
+line-height: 80px;
 border-bottom: 1px solid #38660a;
 box-shadow: 5px 5px 3px #38660a;
 margin-bottom:.5em;
