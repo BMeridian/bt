@@ -5,7 +5,7 @@
 
 body {
  font-family: 'Kite One', sans-serif;
-  text-align: left;
+  /*text-align: left;*/
   background: url(../img/sign.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -15,15 +15,13 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
  font-family: 'Josefin Sans', sans-serif;
-
   letter-spacing: 3px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 p {
-  font-size: 1.25em;
-  line-height: 1.6;
-  color: #000;
+  font-size: 1em;
+  
 }
 
 hr {
@@ -32,9 +30,9 @@ hr {
 }
 
 .desc1{
-
 font-family: 'Brawler', sans-serif;
 font-size: 1em;
+
 }
 
 .brand,
@@ -55,7 +53,11 @@ font-size: 1em;
 }
 
 .img-full {
-  min-width: 100%;
+  /*min-width: 80%;*/
+  min-height: 150px;
+  max-height: 150px;
+  margin-left: auto;
+  margin-right: auto
 }
 
 .brand-name {
@@ -69,11 +71,16 @@ font-size: 1em;
   max-width: 250px;
 }
 
+
+.carousel{
+background: rgba(255,255,255,0.99);
+}
+
 .box {
   background: #fff;
-  background: rgba(255,255,255,0.9);
+  background: rgba(255,255,255,0.95);
   margin-bottom: 20px;
-  padding: 30px 15px;
+  padding: 20px 15px 15px 15px;
 }
 
 .intro-text {
@@ -100,7 +107,7 @@ footer {
 
 footer p {
   margin: 0;
-  padding: 50px 0;
+  padding: 20px 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -110,7 +117,6 @@ footer p {
   font-weight: 700;
   font-size: 5em;
   line-height: normal;
-  /*text-align: center;*/
   margin: 0;
   padding: 30px 0 10px;
   color: #fff;
@@ -128,7 +134,6 @@ footer p {
 
 .address-bar {
   display: inherit;
-  /*text-align: center;*/
   margin: 0;
   padding: 0 0 40px;
   font-size: 1.25em;
@@ -158,7 +163,7 @@ footer p {
 }
 
 .nav>li>a {
-  padding: 35px;
+  padding: 30px;
 }
 
 .navbar-nav>li>a {
@@ -183,50 +188,9 @@ footer p {
     }
 }
 
-/*buttons*/
-/*.btn3d {
-    transition:all .08s linear;
-    position:relative;
-    outline:medium none;
-    -moz-outline-style:none;
-    border:0px;
-    margin-right:10px;
-    margin-top:15px;
-}
-.btn3d:focus {
-    outline:medium none;
-    -moz-outline-style:none;
-}
-.btn3d:active {
-    top:9px;
-}
-.btn-default {
-    box-shadow:0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #adadad, 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
-    background-color:#fff;
-}
-.btn-primary {
-    box-shadow:0 0 0 1px #428bca inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #357ebd, 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
-    background-color:#428bca;
-}*/
 
 
-.floatleft {
-  float:left;
-}
 
-.floatleft{
-float:left;
-}
-.opt{
-height:90px;
-background-color: #fffbf6;
-border: .1em solid #cdecf5;
-border-radius: 15px;
-padding:5px 10px 10px 10px;
-margin-bottom:10px;
-border-bottom: 1px solid #2185a3;
-box-shadow: 5px 5px 3px #2185a3;
-}
 .product{
 background-color: #fffbf6;
 border: .1em solid #cdecf5;
@@ -240,17 +204,16 @@ box-shadow: 5px 5px 3px #2185a3;
 margin-top:10px;
 margin-right:10px;
 border-radius: 6px;
+height:50px
 }
-.donebutton{
-height: 90px;
-background-color: #abf066;
 
-/*border: .1em solid #2e5408;*/
-border-radius: 15px;
-/*color:white;*/
-font-size: 2em;
+.donebutton{
+height: 80px;
+background-color: #abf066;
+border-radius: 10px;
+font-size: 1.7em;
 text-align: center;
-line-height: 100px;
+line-height: 80px;
 border-bottom: 1px solid #38660a;
 box-shadow: 5px 5px 3px #38660a;
 margin-bottom:.5em;
@@ -258,10 +221,7 @@ margin-bottom:.5em;
 .waitbutton{
 height: 90px;
 background-color: #abf066;
-
-/*border: .1em solid #2e5408;*/
 border-radius: 15px;
-/*color:white;*/
 font-size: 2em;
 text-align: center;
 line-height: 100px;
@@ -272,10 +232,7 @@ margin-bottom:.5em;
 .iminbutton{
 height: 90px;
 background-color: #abf066;
-
-/*border: .1em solid #2e5408;*/
 border-radius: 15px;
-/*color:white;*/
 font-size: 2em;
 text-align: center;
 line-height: 100px;
@@ -284,35 +241,71 @@ box-shadow: 5px 5px 3px #38660a;
 margin-bottom:.5em;
 }
 
+.floatleft{
+float:left;
+margin-top:10px;
 }
-  .invFront2 {
-      width:100%-20px;
-      border-radius: 7px;
-      background-color: rgb(91, 192, 222);
-      color: rgb(255, 255, 255);
-      font-size: 1.1em;
-      margin: 15px 0px 10px 0px; 
-      padding:.5em 
-    }
 
-  .invFront_2 {
-      width:100%-20px;
-      border-radius: 7px;
-      background-color: rgb(91, 192, 222);
-      color: rgb(255, 255, 255);
-      font-size: 1.1em;
-      margin: 15px 0px 10px 0px; 
-      padding:.5em 
-    }
+.opt{
+height:80px;
+background-color: #fffbf6;
+padding: 5px 8px;
+margin-bottom:10px;
+border-radius: 8px;
+border: .1em solid #cdecf5;
+border-bottom: 1px solid #2185a3;
+box-shadow: 5px 5px 3px #2185a3;
+}
 
+.conCard{
+  height:80px;
+  background-color: #fffbf6;
+  padding: 5px 8px ;
+  margin-bottom:10px;
+  font-size: .8em;
+  border-radius: 8px;
+  border: .1em solid #cdecf5;
+  border-bottom: 1px solid #2185a3;
+  box-shadow: 5px 5px 3px #2185a3;
+  }
     .inv {
       width:100%-20px;
-      border-radius: 15px;
+      border-radius: 10px;
       background-color: rgb(91, 192, 222);
       color: rgb(255, 255, 255);
-      font-size:1.1em;
-      padding: 20px ;
+      font-size:1em;
+      padding: 12px ;
       margin-top: 10px;
+    }
+
+  .inviteFront {
+      width:100%-20px;
+      border-radius: 7px;
+      background-color: rgb(91, 192, 222);
+      color: rgb(255, 255, 255);
+      font-size: 1.1em;
+      margin: 15px 0 0 0; 
+      padding:.5em 
+    }
+ .inviteFront2 {
+      width:100%-20px;
+      border-radius: 7px;
+      background-color:#084081;
+      color: rgb(255, 255, 255);
+      font-size: 1.1em;
+      margin: 15px 0 0 0; 
+      padding:.5em 
+    }
+
+ .inviteFront3 {
+      width:100%-20px;
+      border-radius: 7px;
+      background-color:#fdae61;
+      color:black;
+      font-size: 1.1em;
+      margin: 15px 0 0 0; 
+      padding:.5em; 
+      width:250px;
     }
 
 
@@ -322,7 +315,7 @@ margin-bottom:.5em;
 }
 
 .productpic{
-	width:100%;
+	width:80%;
 }
 .startsinvisible{
 	display:none;
