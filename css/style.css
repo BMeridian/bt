@@ -73,7 +73,7 @@ font-size: 1em;
 
 
 .carousel{
-background: rgba(255,255,255,0.99);
+background: rgba(255,251,246,0.7);
 }
 
 .box {
@@ -229,6 +229,7 @@ border-bottom: 1px solid #38660a;
 box-shadow: 5px 5px 3px #38660a;
 margin-bottom:.5em;
 }
+
 .iminbutton{
 height: 90px;
 background-color: #abf066;
@@ -262,7 +263,7 @@ box-shadow: 5px 5px 3px #2185a3;
   background-color: #fffbf6;
   padding: 5px 8px ;
   margin-bottom:10px;
-  font-size: .8em;
+  font-size: .9em;
   border-radius: 8px;
   border: .1em solid #cdecf5;
   border-bottom: 1px solid #2185a3;
