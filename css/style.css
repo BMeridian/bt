@@ -74,6 +74,7 @@ font-size: 1em;
 
 .carousel{
 background: rgba(255,251,246,0.7);
+ border: .1em solid #cdecf5;
 }
 
 .box {
