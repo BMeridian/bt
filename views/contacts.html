@@ -126,8 +126,9 @@
 		window.setTimeout(function() {
     		window.location.href = '../index.html';
 		}, 5000);
-		$.post( "http://bethrifty.herokuapp.com/send_sms", function( data ) {
-			$( ".result" ).html( data );
+		// $.post( "http://bethrifty.herokuapp.com/send_sms", function( data ) {
+		// 	$( ".result" ).html( data );
+        $( this ).text("Sms_disabled");
 		});
 	});
     </script>
