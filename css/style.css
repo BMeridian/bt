@@ -5,7 +5,6 @@
 
 body {
  font-family: 'Kite One', sans-serif;
-  /*text-align: left;*/
   background: url(../img/sign.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -32,7 +31,9 @@ hr {
 .desc1{
 font-family: 'Brawler', sans-serif;
 font-size: 1em;
-
+}
+.balance{
+  margin-bottom:.5em
 }
 
 .brand,
@@ -189,55 +190,33 @@ footer p {
     }
 }
 
-.product{
-background-color: #fffbf6;
-border: .1em solid #cdecf5;
-border-radius: 15px;
-padding:5px 10px 10px 10px;
-margin-bottom:10px;
-border-bottom: 1px solid #2185a3;
-box-shadow: 5px 5px 3px #2185a3;
-}
-.avatar{
+
+
+.avatar {
 margin-top:10px;
 margin-right:10px;
 border-radius: 6px;
 height:50px
 }
 
-.donebutton{
-height: 80px;
-background-color: #abf066;
-border-radius: 10px;
-font-size: 1.7em;
-text-align: center;
-line-height: 80px;
-border-bottom: 1px solid #38660a;
-box-shadow: 5px 5px 3px #38660a;
-margin-bottom:.5em;
-}
+.donebutton, 
+.waitbutton, 
+.iminbutton {
+    height: 80px;
+    background-color: #abf066;
+    border-radius: 10px;
+    font-size: 1.7em;
+    text-align: center;
+    line-height: 80px;
+    border-bottom: 1px solid #38660a;
+    box-shadow: 5px 5px 3px #38660a;
+    margin-bottom:.5em;
+    }
+
 .waitbutton{
-height: 80px;
-background-color: #abf066;
-border-radius: 10px;
-font-size: 1.7em;
-text-align: center;
-line-height:  80px;
-border-bottom: 1px solid #38660a;
-box-shadow: 5px 5px 3px #38660a;
-margin-bottom:.5em;
 }
 
 .iminbutton{
-height:  80px;
-background-color: #abf066;
-border-radius: 10px;
-font-size: 1.7em;
-text-align: center;
-line-height: 80px;
-border-bottom: 1px solid #38660a;
-box-shadow: 5px 5px 3px #38660a;
-margin-bottom:.5em;
 }
 
 .floatleft{
@@ -245,28 +224,21 @@ float:left;
 margin-top:10px;
 }
 
-.opt{
-height:80px;
-background-color: #fffbf6;
-padding: 5px 8px;
-margin-bottom:10px;
-border-radius: 8px;
-border: .1em solid #cdecf5;
-border-bottom: 1px solid #2185a3;
-box-shadow: 5px 5px 3px #2185a3;
-}
+.opt, .conCard {
+    height:80px;
+    background-color: #fffbf6;
+    padding: 5px 8px;
+    margin-bottom:10px;
+    border-radius: 8px;
+    border: .1em solid #cdecf5;
+    border-bottom: 1px solid #2185a3;
+    box-shadow: 5px 5px 3px #2185a3;
+    }
 
 .conCard{
-  height:80px;
-  background-color: #fffbf6;
-  padding: 5px 8px ;
-  margin-bottom:10px;
   font-size: .9em;
-  border-radius: 8px;
-  border: .1em solid #cdecf5;
-  border-bottom: 1px solid #2185a3;
-  box-shadow: 5px 5px 3px #2185a3;
   }
+    
     .inv {
       width:100%-20px;
       border-radius: 10px;
@@ -277,8 +249,8 @@ box-shadow: 5px 5px 3px #2185a3;
       margin-top: 10px;
     }
 
-  .inviteFront {
-      width:100%-20px;
+/*these are for buttons*/
+  .inviteFront, .inviteFront2, .inviteFront3 {
       border-radius: 7px;
       background-color: rgb(91, 192, 222);
       color: rgb(255, 255, 255);
@@ -287,30 +259,24 @@ box-shadow: 5px 5px 3px #2185a3;
       padding:.5em 
     }
  .inviteFront2 {
-      width:100%-20px;
-      border-radius: 7px;
       background-color:#084081;
-      color: rgb(255, 255, 255);
-      font-size: 1.1em;
-      margin: 15px 0 0 0; 
-      padding:.5em 
-    }
+ }
 
  .inviteFront3 {
-      width:100%-20px;
-      border-radius: 7px;
       background-color:#fdae61;
       color:black;
-      font-size: 1.1em;
-      margin: 15px 0 0 0; 
-      padding:.5em; 
       width:250px;
     }
 
 
-
-.balance{
-  margin-bottom:.5em
+.product{
+background-color: #fffbf6;
+border: .1em solid #cdecf5;
+border-radius: 15px;
+padding:5px 10px 10px 10px;
+margin-bottom:10px;
+border-bottom: 1px solid #2185a3;
+box-shadow: 5px 5px 3px #2185a3;
 }
 
 .productpic{
