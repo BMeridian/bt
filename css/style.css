@@ -5,7 +5,7 @@
 
 body {
  font-family: 'Kite One', sans-serif;
-  background: url(../img/sign.jpg) no-repeat center center fixed; 
+  /*background: url(../img/sign.jpg) no-repeat center center fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -15,26 +15,18 @@ body {
 h1, h2, h3, h4, h5, h6 {
  font-family: 'Josefin Sans', sans-serif;
   letter-spacing: 3px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 p {
-  font-size: 1em;
-  
+  font-size: 1em;  
 }
 
 hr {
   border-color: #999999;
-  max-width: 400px;
+ /* max-width: 400px;*/
 }
 
-.desc1{
-font-family: 'Brawler', serif;
-font-size: 1em;
-}
-.balance{
-  margin-bottom:.5em
-}
 
 .brand,
 .address-bar {
@@ -67,15 +59,16 @@ font-size: 1em;
 }
 
 .tagline-divider {
-  margin: 15px auto 3px;
+  margin: 30px auto 3px;
   border-color: #999999;
-  max-width: 250px;
+ /* max-width: 250px;*/
 }
 
 
 .carousel{
 background: rgba(255,251,246,0.7);
  border: .1em solid #cdecf5;
+ margin-bottom: 10px;
 }
 
 .box {
@@ -190,12 +183,20 @@ footer p {
     }
 }
 
+.desc1{
+font-family: 'Brawler', serif;
+font-size: 1em;
+ line-height: normal;
+}
+.balance{
+  margin-bottom:.5em
+}
 
 
 .avatar {
 margin-top:10px;
 margin-right:10px;
-border-radius: 6px;
+border-radius: 5px;
 height:50px
 }
 
@@ -203,20 +204,20 @@ height:50px
 .waitbutton, 
 .iminbutton {
     height: 80px;
-    background-color: #abf066;
-    border-radius: 10px;
+    background-color: #90f4d6;
+    border-radius: 5px;
     font-size: 1.7em;
     text-align: center;
     line-height: 80px;
-    border-bottom: 1px solid #38660a;
-    box-shadow: 5px 5px 3px #38660a;
+    border-bottom: 1px solid #0c7958;
+    box-shadow: 2px 2px 3px #0c7958;
     margin-bottom:.5em;
     }
 
-.waitbutton{
-}
-
-.iminbutton{
+.sendSMSCover{
+  background-color: #cfeefe;
+  border-bottom: 1px solid #084081;
+  box-shadow: 2px 2px 3px #084081;
 }
 
 .floatleft{
@@ -226,22 +227,25 @@ margin-top:10px;
 
 .opt, .conCard {
     height:80px;
-    background-color: #fffbf6;
+    width: 102%;
+    background: rgba(255,251,246,0.5);
     padding: 5px 8px;
     margin-bottom:10px;
-    border-radius: 8px;
+    border-radius: 5px;
     border: .1em solid #cdecf5;
     border-bottom: 1px solid #2185a3;
-    box-shadow: 5px 5px 3px #2185a3;
+    box-shadow: 2px 2px 3px #2185a3;
+    padding: 5px 10px 5px 10px;
     }
 
 .conCard{
   font-size: .9em;
   }
+
     
     .inv {
       width:100%-20px;
-      border-radius: 10px;
+      border-radius: 5px;
       background-color: rgb(91, 192, 222);
       color: rgb(255, 255, 255);
       font-size:1em;
@@ -251,7 +255,7 @@ margin-top:10px;
 
 /*these are for buttons*/
   .inviteFront, .inviteFront2, .inviteFront3 {
-      border-radius: 7px;
+      border-radius: 5px;
       background-color: rgb(91, 192, 222);
       color: rgb(255, 255, 255);
       font-size: 1.1em;
@@ -272,7 +276,7 @@ margin-top:10px;
 .product{
 background-color: #fffbf6;
 border: .1em solid #cdecf5;
-border-radius: 15px;
+border-radius: 5px;
 padding:5px 10px 10px 10px;
 margin-bottom:10px;
 border-bottom: 1px solid #2185a3;
