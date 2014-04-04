@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:400);
 @import url(http://fonts.googleapis.com/css?family=Kite+One:300,400);
 @import url(http://fonts.googleapis.com/css?family=Brawler);
   
@@ -78,11 +78,6 @@ background: rgba(255,251,246,0.7);
   padding: 20px 15px 15px 15px;
 }
 
-.intro-text {
-  letter-spacing: 1px;
-  font-size: 1.25em;
-  font-weight: 400;
-}
 
 .img-border {
   float: none;
