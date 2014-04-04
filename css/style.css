@@ -1,11 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Josefin+Sans:400);
 @import url(http://fonts.googleapis.com/css?family=Kite+One:300,400);
 @import url(http://fonts.googleapis.com/css?family=Brawler);
-  
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400);
+ 
 
 body {
  font-family: 'Kite One', sans-serif;
-  /*background: url(../img/sign.jpg) no-repeat center center fixed; */
+  background: url(./img/sign.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -222,7 +223,7 @@ margin-top:10px;
 
 .opt, .conCard {
     height:80px;
-    width: 102%;
+    width: 100%;
     background: rgba(255,251,246,0.5);
     padding: 5px 8px;
     margin-bottom:10px;
