@@ -188,7 +188,8 @@ font-size: 1em;
   margin-bottom:.5em
 }
 
-
+/*1EA663*/
+/*#90f4d6*/
 
 .donebutton, 
 .waitbutton, 
@@ -197,7 +198,8 @@ font-size: 1em;
     line-height: 70px;
     font-size: 1.5em;
     text-align: center;
-    background-color: #90f4d6;
+    background-color: #2BBE73;
+
     border-radius: 5px;
     border-bottom: 1px solid #0c7958;
     box-shadow: 2px 2px 3px #0c7958;
