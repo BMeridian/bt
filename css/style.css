@@ -6,7 +6,7 @@
 
 body {
  font-family: 'Kite One', sans-serif;
-  background: url(./img/sign.jpg) no-repeat center center fixed; 
+  background: url(../img/sign.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -75,8 +75,8 @@ background: rgba(255,251,246,0.7);
 .box {
   background: #fff;
   background: rgba(255,255,255,0.95);
-  margin-bottom: 20px;
-  padding: 20px 15px 15px 15px;
+ /* margin-bottom: 20px;*/
+ /* padding: 20px 15px 15px 15px;*/
 }
 
 
@@ -189,22 +189,16 @@ font-size: 1em;
 }
 
 
-.avatar {
-margin-top:10px;
-margin-right:10px;
-border-radius: 5px;
-height:50px
-}
 
 .donebutton, 
 .waitbutton, 
 .iminbutton {
-    height: 80px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 1.5em;
+    text-align: center;
     background-color: #90f4d6;
     border-radius: 5px;
-    font-size: 1.7em;
-    text-align: center;
-    line-height: 80px;
     border-bottom: 1px solid #0c7958;
     box-shadow: 2px 2px 3px #0c7958;
     margin-bottom:.5em;
@@ -225,20 +219,26 @@ margin-top:10px;
     height:80px;
     width: 100%;
     background: rgba(255,251,246,0.5);
-    padding: 5px 8px;
+    padding: 5px 10px;
     margin-bottom:10px;
     border-radius: 5px;
     border: .1em solid #cdecf5;
     border-bottom: 1px solid #2185a3;
     box-shadow: 2px 2px 3px #2185a3;
-    padding: 5px 10px 5px 10px;
+    
     }
 
 .conCard{
-  font-size: .9em;
+  font-size: .8em;
   }
 
-    
+.avatar {
+    margin-top:10px;
+    margin-right:10px;
+    border-radius: 5px;
+    height:50px
+    }
+ 
     .inv {
       width:100%-20px;
       border-radius: 5px;
