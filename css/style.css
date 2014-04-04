@@ -14,7 +14,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
- font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   letter-spacing: 3px;
   font-weight: 400;
 }
@@ -46,19 +46,6 @@ hr {
   font-weight: 400;
 }
 
-.img-full {
-  /*min-width: 80%;*/
-  min-height: 150px;
-  max-height: 150px;
-  margin-left: auto;
-  margin-right: auto
-}
-
-.brand-name {
-  font-weight: 700;
-  letter-spacing: normal;
-}
-
 .tagline-divider {
   margin: 30px auto 3px;
   border-color: #999999;
@@ -66,16 +53,35 @@ hr {
 }
 
 
-.carousel{
-background: rgba(255,251,246,0.7);
- border: .1em solid #cdecf5;
- margin-bottom: 10px;
+.carouselFront{
+  background: rgba(255,251,246,0.5);
+  border: .1em solid #cdecf5;
+  margin-bottom: -15px;
 }
+
+.carouselProduct{
+  background: rgba(255,251,246,0);
+}
+
+.item{
+    min-height: 230px;
+}
+
+
+
+.img-full {
+  min-height: 150px;
+  max-height: 150px;
+  margin-top: 15px; 
+  margin-left: auto;
+  margin-right: auto
+}
+
 
 .box {
   background: #fff;
   background: rgba(255,255,255,0.95);
- /* margin-bottom: 20px;*/
+  margin-top: 10px;
  /* padding: 20px 15px 15px 15px;*/
 }
 
@@ -94,11 +100,15 @@ background: rgba(255,251,246,0.7);
 footer {
   background: #fff;
   background: rgba(255,255,255,0.9);
+  position: fixed;  
+  bottom: 0px;
+  width: 100%;
 }
 
 footer p {
   margin: 0;
-  padding: 20px 0;
+  padding: 15px 0;
+  font-size: .8em;
 }
 
 @media screen and (min-width: 768px) {
@@ -181,16 +191,15 @@ footer p {
 
 .desc1{
 font-family: 'Brawler', serif;
-font-size: 1em;
+font-size: .9em;
  line-height: normal;
 }
-.balance{
-  margin-bottom:.5em
-}
+.balances{
+  margin-bottom:.5em;
+/* background: rgba(255,251,246,1);*/
+ margin: 0 50px 0 0
 
-/*1EA663*/
-/*#90f4d6   #2BBE73*/
-/*??*/
+}
 
 .donebutton, 
 .waitbutton, 
@@ -200,22 +209,22 @@ font-size: 1em;
     font-size: 1.5em;
     text-align: center;
     background-color:#AFE2C7;
-
     border-radius: 5px;
     border-bottom: 1px solid #0c7958;
     box-shadow: 2px 2px 3px #0c7958;
     margin-bottom:.5em;
     }
 
-.sendSMSCover{
+.buttonSec{
   background-color: #cfeefe;
   border-bottom: 1px solid #084081;
   box-shadow: 2px 2px 3px #084081;
 }
 
 .floatleft{
-float:left;
-margin-top:10px;
+  float:left;
+  margin-top:10px;
+
 }
 
 .opt, .conCard {
@@ -232,17 +241,17 @@ margin-top:10px;
     }
 
 .conCard{
-  font-size: .8em;
+  font-size: .9em;
   }
 
-.avatar {
+  .avatar {
     margin-top:10px;
     margin-right:10px;
     border-radius: 5px;
     height:50px
     }
  
-    .inv {
+  .inv {
       width:100%-20px;
       border-radius: 5px;
       background-color: rgb(91, 192, 222);
@@ -273,13 +282,13 @@ margin-top:10px;
 
 
 .product{
-background-color: #fffbf6;
-border: .1em solid #cdecf5;
-border-radius: 5px;
-padding:5px 10px 10px 10px;
-margin-bottom:10px;
-border-bottom: 1px solid #2185a3;
-box-shadow: 5px 5px 3px #2185a3;
+  background-color: #fffbf6;
+  border: .1em solid #cdecf5;
+  border-radius: 5px;
+  padding: 10px ;
+  margin-bottom:10px;
+  /*border-bottom: 1px solid #2185a3;
+  box-shadow: 5px 5px 3px #2185a3;*/
 }
 
 .productpic{
@@ -290,6 +299,5 @@ box-shadow: 5px 5px 3px #2185a3;
 }
 
 .mdfy{
-      font-size:1.1em !important;
-      color: white;
+      font-size:1em !important;
 }
