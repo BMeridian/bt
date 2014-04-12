@@ -346,7 +346,7 @@ font-size: .9em;
     }
 
 /*these are for buttons*/
-  .inviteFront, .inviteFront2, .inviteFront3 {
+  .inviteFront, .inviteFront3, .createNew {
       border-radius: 5px;
       background-color:#AFE2C7;
       color: rgb(255, 255, 255);
@@ -355,7 +355,7 @@ font-size: .9em;
       padding:.5em;
        color:black;
     }
- .inviteFront2 {
+ .createNew {
       background-color:rgba(206,120,37,.15);
  }
 

@@ -1,5 +1,16 @@
 <div class="row">
     <div class="box">
+		Select List: 
+    
+			    <select id="e2" style="width:40%">
+			        <option value="Costco">Costco Group</option>
+			        <option value="Sam's">Sam's</option>
+			 		<option value="Target">Target</option>
+
+			    </select>
+
+
+
         <div class="col-lg-12">
             
 		            <div class="conCard">
@@ -67,4 +78,11 @@
 			$( ".result" ).html( data );
 		});
 	});
+
+$("#e2").select2({
+    placeholder: "Select a State",
+    allowClear: true
+});
+
+
 </script>

@@ -100,7 +100,7 @@
                         
 
                         <div class="row" style="display:inline-block" >
-                        <button type="button" class="inviteFront2" id="inviteFront2" ><span> Create Buying Group  </span>  </button>
+                        <button type="button" class="createNew" ><span> Create Buying Group  </span>  </button>
                         <button type="button" class="inviteFront" id="inviteFront" ><span > My Selected Group</span></button>
                         </div>
                         <div class="row">
@@ -122,53 +122,53 @@
     $(".inviteFront").click(function () {
         $("#mainContainer").html("").load("views/contacts.html")
                 });
-    $(".inviteFront2").click(function () {
-        $("#mainContainer").html("").load("views/contacts.html")
+    $(".createNew").click(function () {
+        $("#mainContainer").html("").load("views/finder.html")
                 });
     $(".inviteFront3").click(function () {
         $("#mainContainer").html("").load("views/products.html")
                 });
             
 
-            Morris.Donut({
-          element: 'donut-example',
-          data: [
-            {label: "Download Sales", value: 12},
-            {label: "In-Store Sales", value: 30},
-            {label: "Mail-Order Sales", value: 20}
-          ]
-        });
+//             Morris.Donut({
+//           element: 'donut-example',
+//           data: [
+//             {label: "Download Sales", value: 12},
+//             {label: "In-Store Sales", value: 30},
+//             {label: "Mail-Order Sales", value: 20}
+//           ]
+//         });
 
-            Morris.Donut({
-          element: 'donut-example1',
-          data: [
-            {label: "Download Sales", value: 12},
-            {label: "In-Store Sales", value: 30},
-            {label: "Mail-Order Sales", value: 20}
-          ]
-        });
-    Morris.Donut({
-          element: 'donut-example2',
-          data: [
-            {label: "Download Sales", value: 12},
-            {label: "In-Store Sales", value: 30},
-            {label: "Mail-Order Sales", value: 20}
-          ]
-        });
+//             Morris.Donut({
+//           element: 'donut-example1',
+//           data: [
+//             {label: "Download Sales", value: 12},
+//             {label: "In-Store Sales", value: 30},
+//             {label: "Mail-Order Sales", value: 20}
+//           ]
+//         });
+//     Morris.Donut({
+//           element: 'donut-example2',
+//           data: [
+//             {label: "Download Sales", value: 12},
+//             {label: "In-Store Sales", value: 30},
+//             {label: "Mail-Order Sales", value: 20}
+//           ]
+//         });
 
-    Morris.Donut({
-          element: 'donut-example3',
-          data: [
-            {label: "Download Sales", value: 12},
-            {label: "In-Store Sales", value: 30},
-            {label: "Mail-Order Sales", value: 20}
-          ]
-        });
+//     Morris.Donut({
+//           element: 'donut-example3',
+//           data: [
+//             {label: "Download Sales", value: 12},
+//             {label: "In-Store Sales", value: 30},
+//             {label: "Mail-Order Sales", value: 20}
+//           ]
+//         });
 
          
-$( "#donut-example1" ).click(function() {
-  alert( "Handler for .click() called." );
-});
+// $( "#donut-example1" ).click(function() {
+//   alert( "Handler for .click() called." );
+// });
 
 
     </script> 
