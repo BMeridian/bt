@@ -11,7 +11,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background: rgba(255,245,232,0.1);
+  background: rgba(255,245,232,0.3);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,8 +34,9 @@ hr {
   font-weight: 700;
   float: none;
   font-size: 1.5em;
-  /*color:#91777e;*/
-  margin-top: 0px;  
+  padding-top: 10px;
+  line-height: 50px;
+ /* border-: 1px dotted rgba(145,119,126,.15);*/
 }
 
 
@@ -44,9 +45,6 @@ hr {
     border-radius:0;
 }
 
-.navbar-custom .navbar-nav > li > a {
-    color:#fff;
-}
 .navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
     color: #ffffff;
     background-color:transparent;
@@ -69,8 +67,8 @@ hr {
 }
 
 #mainContainer {
-  margin-top: 40px;
-  margin: 1em 0 0 0;
+ /* margin-top: 40px;*/
+  margin: -.5em 0 0 0;
   margin-bottom: 50px;
 }
 
@@ -78,7 +76,7 @@ hr {
   background: rgba(255,251,246,0.5);
   border: .15em ridge #91777e;
   margin-bottom: -15px;
-   margin-top: 10px;
+  margin-top: 10px;
 }
 
 .carouselProduct{
