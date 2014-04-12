@@ -29,13 +29,18 @@ hr {
  /* max-width: 400px;*/
 }
 
+.tagline-divider {
+  margin: 30px auto 3px;
+ border: 1px solid rgba(145,119,126,.15);
+}
+
 .navbar-brand {
   font-family: 'Lusitana', serif;
   font-weight: 700;
   float: none;
   font-size: 1.5em;
-  padding-top: 10px;
-  line-height: 50px;
+  padding-top: 15px;
+  line-height: 2.5em;
  /* border-: 1px dotted rgba(145,119,126,.15);*/
 }
 
@@ -68,7 +73,7 @@ hr {
 
 #mainContainer {
  /* margin-top: 40px;*/
-  margin: -.5em 0 0 0;
+ /* margin: -.5em 0 0 0;*/
   margin-bottom: 50px;
 }
 
@@ -126,7 +131,7 @@ hr {
 
 #chat-wrapper {
   margin-right: -250px;
-  margin-top: -45px;
+  margin-top: -52px;
   right: 0;
   width: 250px;
   background: #feedd4;
@@ -151,11 +156,10 @@ hr {
   padding: 0;
 }
 
-.chat-nav > .chat-brand {
-  height: 55px;
-  line-height: 55px;
-  font-size: 18px;
-  padding: 0 15px;
+.chat-nav > .chat-brand { 
+  line-height: 2.5em;
+  font-size: 1.2em;
+  padding: 2px 15px;
   border-bottom:  .1em solid #91777e;
 }
 
