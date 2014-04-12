@@ -12,75 +12,64 @@
     <title>BeThrifty</title>
 
      <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- <link href="css/bootstrap-theme.css" rel="stylesheet"> -->
-    <!-- <link href="css/font-awesome.min.css" rel="stylesheet"> -->
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-   
+   <style>
+    
+</style>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-default" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">BeThrifty</a>
-            </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a class="nav2" >Contacts</a></li>
-                    <li><a class="nav3">Products</a> </li>
-                     <li><a class="nav4">Settings</a> </li>
-                    <li><a class= "about">About</a>
-                </ul>
-            </div>
-           
-        </div>
-        
-    </nav>
+<nav class="navbar-brand" href="index.html">BeThrifty</nav>
 
-    <div class="container" id="mainContainer" style="margin:-1em 0 0 0"> 
-     <div class="row"></div>
+ <a id="chat-toggle"  class="btn btn-warning btn-md toggle" >Chat</a>
+    <div id="chat-wrapper" >
+        <ul class="chat-nav">
+            <a id="chat-close" class="btn btn-default btn-md pull-right toggle">Hide</a>
+            <li class="chat-brand"><span > Personal Chat</span>
+            </li>
+            <li>
+            
+
+        </ul>
     </div>
-    
-    
-    <footer>
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p>Copyright &copy; Powered by BeThrifty 2014</p>
-                </div>
-            </div>
 
-    </footer>
+    <div class="container" id="mainContainer"> </div>
+    
+
+
+
+
+
+
+  <div class="col-xs-12 navbar-custom navbar-fixed-bottom" id="bottomNav">
+  <ul class="row ulNoMarker" id="bottomNav">
+    <li class=" footerNav text-center" id="home"><i class="glyphicon glyphicon-home"></i><br>Home</li>
+    <li class=" footerNav text-center" id="nav2"><i class="glyphicon glyphicon-useer "></i><br>Contacts</li>
+    <li class=" footerNav text-center" id="nav3" ><i class="glyphicon glyphicon-"></i><br>Products</li>
+    <li class=" footerNav text-center" id="nav5"><i class="glyphicon glyphicon-setting"></i><br>Settings</li>
+    <li class=" footerNav text-center" id="nav5"><i class="glyphicon glyphicon/-circle-arrow-right"></i><br>...</li>
+
+  </ul>
+  </div>
+
 
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/jquery.mobile.min.js"></script>
   <!--   // <script src="js/nunjucks.js"></script> -->
-    <script>
-            $("#mainContainer" ).load("views/frontpage.html");
+    <script src="js/main.js"></script>
+    <!-- chart -->
+    <link rel="stylesheet" href="http://cdn.oesmith.co.uk/morris-0.4.3.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+    <script src="http://cdn.oesmith.co.uk/morris-0.4.3.min.js"></script>
+    
 
-            $(".nav2").click(function () {
-                $("#mainContainer").html("").load("./views/contacts.html")
-                });
-            $(".nav3").click(function () {
-                $("#mainContainer").html("").load("./views/products.html")
-                });
-            $(".nav4").click(function () {
-                $("#mainContainer").html("").load("./views/products.html")
-                });
-
-    </script> 
-
+  
 </body>
 
 </html>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="org.bethriftyapp.bethrifty" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>BeThrifty</name>
+    <description>
+        App
+    </description>
+    <author email="dev@home.org" href="http://www.homw.com">
+        Group of Three
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
