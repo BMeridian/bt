@@ -26,5 +26,5 @@ $("#nav4").click(function () {
     $("#mainContainer").html("").load("./views/savings.html")
     });
 $("#nav5").click(function () {
-    // $("#mainContainer").html("").load("./views/products.html")
+    $("#mainContainer").html("").load("./views/newGroup.html")
     });

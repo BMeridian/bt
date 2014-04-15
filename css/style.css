@@ -225,18 +225,20 @@ font-size: .9em;
 
 .productMin .badgeNum {
   background-color:rgba(159,2,0,.85);
+  font-size:.8em;
 }
 
 .productMin .badgeZero {
-   background-color: #feedd4;
-   border: .1em solid #91777e;
-   color: #91777e;
+    background-color: #feedd4;
+    border: .15em solid black;
+    color: #91777e;
+    font-size:.7em;
 }
 
 .productMin  p {
   font-size:.7em;
   color:black;
-  margin-right: 20px
+  margin-left: 20px
 }
 
 

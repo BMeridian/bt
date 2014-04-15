@@ -94,7 +94,7 @@
                       
             
                         <div class="row" style="display:inline-block" >
-                        <button type="button" class="createNew" ><span> New Buying Group  </span>  </button>
+                        <button type="button" class="createNew" ><span> Found New Item</span>  </button>
                         <button type="button" class="inviteFront" id="inviteFront" ><span > My Selected Group</span></button>
 
                         </div>
@@ -116,22 +116,28 @@
                         <div  class=" col-xs-6 text-center" id="donut-example1" style="height:120px"></div> -->
                         <!-- <div class=" col-xs-4 text-center"  id="donut-example2" style="height:200px"></div> -->
                        <!--  <div  class=" col-xs-3 text-center" id="donut-example3" style="height:200px"></div> -->
+                                
+
                                 <div class="productMin">
-                                  <a class="pull-left" href="#">
-                                      <img class="productMin-object" src="./img/formula.jpg" />
-                                      <span class="badge badgeZero pull-right">0</span>
-                                       <p>50%</p>
-                                  </a>
-                                  <a class="pull-left" href="#">
-                                      <img class="productMin-object" src="./img/diapers.jpg" />
-                                      <span class="badge badgeNum pull-right">2</span>
-                                       <p>74%</p>
-                                  </a>
+
                                   <a class="pull-left" href="#">
                                       <img class="productMin-object" src="./img/rice.jpg" />
                                       <span class="badge badgeZero pull-right">0</span>
-                                         <p>94%</p>
+                                     <p class="textcenter">94%</p>
                                   </a>
+
+                                    <a class="pull-left" href="#">
+                                      <img class="productMin-object" src="./img/diapers.jpg" />
+                                      <span class="badge badgeNum pull-right">2</span>
+                                       <p class="textcenter">74%</p>
+                                  </a>
+                                  <a class="pull-left" href="#">
+                                      <img class="productMin-object" src="./img/formula.jpg" />
+                                      <span class="badge badgeZero pull-right">0</span>
+                                       <p class="textcenter" >50%</p>
+                                  </a>
+                                 
+                                  
                                  <a class="pull-left" href="#">
                                       <img class="productMin-object"  />
                                       <span class="badge badgeZero pull-right">0</span>
@@ -167,7 +173,7 @@
         $("#mainContainer").html("").load("views/contacts.html")
                 });
     $(".createNew").click(function () {
-        $("#mainContainer").html("").load("views/newGroup.html")
+        $("#mainContainer").html("").load("views/newProduct.html")
                 });
     $(".seeProduct").click(function () {
         $("#mainContainer").html("").load("views/products.html")
