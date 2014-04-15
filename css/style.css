@@ -69,7 +69,7 @@ hr {
     }
 
 .tagline-divider {
-  margin: 30px auto 3px;
+  margin: 30px auto 2px;
  border: 1px solid rgba(145,119,126,.15);
 }
 
@@ -125,8 +125,8 @@ hr {
 .ulNoMarker {
   list-style-type: none;
   padding-left: 5px;
-  margin: 8px;
-  /*padding-right: 5px;*/
+  margin: 0px;
+ 
 }
 
 
