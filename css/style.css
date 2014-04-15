@@ -52,6 +52,8 @@ hr {
 
 .navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
     color: #ffffff;
+    margin-right: 0px;
+    margin-left: 0px; 
     background-color:transparent;
 }
 .navbar-custom .navbar-brand {
@@ -60,10 +62,10 @@ hr {
 
 .footerNav {
     display: inline-block;
-    width:23%; 
+    width:18%; 
     color:#ffffff;
     /*margin-left: -40px;*/
-    /*padding: 0;  */
+    padding: 5px;  
     }
 
 .tagline-divider {
@@ -193,10 +195,10 @@ hr {
 }
 
 .badge{
-  background-color:rgba(159,2,0,1);
+  background-color:rgba(159,2,0,.85);
 }
 
-.product img+span.badge {
+.productMin img+span.badge {
     border-style: none;
     position: relative;
     top:  -58px;
@@ -213,7 +215,7 @@ hr {
 
 
 
-.product-object {
+.productMin-object {
   border: .1em ridge #91777e;
   width:  50px;
   height: 50px;
@@ -374,7 +376,7 @@ font-size: .9em;
     }
 
 /*these are for buttons*/
-  .inviteFront, .inviteFront3, .createNew {
+  .inviteFront, .seeProduct, .createNew {
       border-radius: 5px;
       background-color:#AFE2C7;
       color: rgb(255, 255, 255);
@@ -387,7 +389,7 @@ font-size: .9em;
       background-color:rgba(206,120,37,.15);
  }
 
- .inviteFront3 {
+ .seeProduct {
       /*background-color:#fdae61;*/
        background-color:rgba(206,120,37,.3);
       color:black;

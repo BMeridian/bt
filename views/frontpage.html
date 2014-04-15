@@ -96,36 +96,37 @@
                         <div class="row" style="display:inline-block" >
                         <button type="button" class="createNew" ><span> New Buying Group  </span>  </button>
                         <button type="button" class="inviteFront" id="inviteFront" ><span > My Selected Group</span></button>
+
                         </div>
 
-                     <div class="row">
-                        <button type="button" class="inviteFront3"><span >  See All Products </span></button>
+                        <div class="row">
+                        <button type="button" class="seeProduct"><span >  See All Products </span></button>
                         </div>
 
                     
-                   <!--  <hr class="tagline-divider"> -->
+                    <hr class="tagline-divider" style="margin-top:20px">
                     
                    <!--  <div class="pull-lefft" style="margin-top:15px;margin-bottom:15px" >Products with recent activity:</div> 
                      
                      <p style="clearfix:both" ></p>     -->
 
-                    <div class="row pies" > 
+                    <div class="row pies"  > 
                                    
                       <!--   <div class=" col-xs-6 text-center"  id="donut-example" style="height:100px"></div>
                         <div  class=" col-xs-6 text-center" id="donut-example1" style="height:120px"></div> -->
                         <!-- <div class=" col-xs-4 text-center"  id="donut-example2" style="height:200px"></div> -->
                        <!--  <div  class=" col-xs-3 text-center" id="donut-example3" style="height:200px"></div> -->
-                                <div class="product">
+                                <div class="productMin">
                                   <a class="pull-left" href="#">
-                                      <img class="product-object" src="./img/formula.jpg" />
+                                      <img class="productMin-object" src="./img/formula.jpg" />
                                       <span class="badge pull-right">0</span>
                                   </a>
                                   <a class="pull-left" href="#">
-                                      <img class="product-object" src="./img/diapers.jpg" />
+                                      <img class="productMin-object" src="./img/diapers.jpg" />
                                       <span class="badge  pull-right">2</span>
                                   </a>
                                   <a class="pull-left" href="#">
-                                      <img class="product-object" src="./img/rice.jpg" />
+                                      <img class="productMin-object" src="./img/rice.jpg" />
                                       <span class="badge pull-right">0</span>
                                   </a>
                                 </div>
@@ -150,7 +151,7 @@
         $("#mainContainer").html("").load("views/contacts.html")
                 });
     $(".createNew").click(function () {
-        $("#mainContainer").html("").load("views/finder.html")
+        $("#mainContainer").html("").load("views/newGroup.html")
                 });
     $(".inviteFront3").click(function () {
         $("#mainContainer").html("").load("views/products.html")
