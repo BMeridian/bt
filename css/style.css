@@ -135,7 +135,7 @@ hr {
   margin-top: -52px;
   right: 0;
   width: 250px;
-  background: #fffbf6;
+  background: #feedd4;
   border: .1em solid #91777e;
   position: fixed;
   height: 100%;
@@ -192,11 +192,16 @@ hr {
   margin-top: 20px;
 }
 
+.badge{
+  background-color:rgba(159,2,0,1);
+}
+
 .product img+span.badge {
     border-style: none;
     position: relative;
     top:  -58px;
     left: 8px;
+
 
 }
 
@@ -209,6 +214,7 @@ hr {
 
 
 .product-object {
+  border: .1em ridge #91777e;
   width:  50px;
   height: 50px;
 }
