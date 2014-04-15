@@ -129,12 +129,13 @@ hr {
 
 
 
+
 #chat-wrapper {
   margin-right: -250px;
   margin-top: -52px;
   right: 0;
   width: 250px;
-  background: #feedd4;
+  background: #fffbf6;
   border: .1em solid #91777e;
   position: fixed;
   height: 100%;
@@ -187,9 +188,30 @@ hr {
   margin: 5px 5px 0 0;
 }
 
+.pies{
+  margin-top: 20px;
+}
+
+.product img+span.badge {
+    border-style: none;
+    position: relative;
+    top:  -58px;
+    left: 8px;
+
+}
+
+/*.product img+span.badge2 {
+    position: relative;
+    top:  -8px;
+    left: 8px;
+}*/
 
 
 
+.product-object {
+  width:  50px;
+  height: 50px;
+}
 
 
 @media screen and (min-width: 768px) {
@@ -310,10 +332,10 @@ font-size: .9em;
 
 }
 
-.opt, .conCard {
+.opt, .contactCard {
     height:80px;
     width: 100%;
-    background: #feedd4;
+    background-color: rgba(206,120,37,.15);
     padding: 5px 10px;
     margin-bottom:10px;
     border-radius: 5px;
@@ -323,7 +345,7 @@ font-size: .9em;
     
     }
 
-.conCard{
+.contactCard{
   font-size: .9em;
 
   }
@@ -369,7 +391,7 @@ font-size: .9em;
 
 .product{
   background-color: #fffbf6;
-  border: .1em solid #cdecf5;
+  border: .1em solid #fffbf6;
   border-radius: 5px;
   padding: 10px ;
   margin-bottom:10px;
