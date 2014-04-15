@@ -447,3 +447,8 @@ font-size: .9em;
 .select2-results { background-color:  rgba(255,245,232,0.3) }
 .select2-search { background-color:  rgba(255,245,232,0.3) }
 .select2-search input { background-color:  rgba(255,245,232,0.3) }
+
+.select2-results .select2-highlighted {
+    background: rgba(159,2,0,.75);
+    color: #fff;
+}
